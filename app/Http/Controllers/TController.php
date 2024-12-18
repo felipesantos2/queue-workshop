@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Jobs\RJob;
 use App\Jobs\TJob;
 use Illuminate\Contracts\View\View;
-use Illuminate\Http\RedirectResponse;
 
 class TController extends Controller
 {

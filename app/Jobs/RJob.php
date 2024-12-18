@@ -21,4 +21,11 @@ class RJob implements ShouldQueue
 
         echo 'Running the Job in queue!';
     }
+
+    public function middleware()
+    {
+        return [
+
+        ];
+    }
 }
