@@ -10,7 +10,7 @@ class TController extends Controller
 {
     public function index(): View
     {
-        return view('welcome');
+        return view('custom.jobs');
     }
 
     public function store()
