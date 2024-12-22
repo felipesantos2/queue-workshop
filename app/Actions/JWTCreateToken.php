@@ -4,6 +4,7 @@ namespace App\Actions;
 
 use Firebase\JWT\JWT;
 use Firebase\JWT\Key;
+use stdClass;
 
 class JWTCreateToken
 {
